@@ -16,16 +16,6 @@ jobs:
         include:
           - name: golang
             dockerfile: ./golang/Dockerfile
-          - name: node
-            dockerfile: ./node/Dockerfile
-          - name: php
-            dockerfile: ./php/Dockerfile
-          - name: python
-            dockerfile: ./python/Dockerfile
-          - name: ruby
-            dockerfile: ./ruby/Dockerfile
-          - name: java
-            dockerfile: ./java/Dockerfile
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
